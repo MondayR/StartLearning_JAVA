@@ -1,0 +1,10 @@
+package test;
+
+public class NumberAndChar {
+	public static void main (String args[]){
+		int i = 'a';
+		char b = 70;
+		System.out.println("a所对应的数字是 "+i);
+		System.out.println("70所对应的字符是 "+b);
+	}
+}
