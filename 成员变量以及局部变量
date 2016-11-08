@@ -1,0 +1,10 @@
+package test;
+
+public class Part {
+	static int times = 10;
+	public static void main(String arg[]){
+		int times = 20;
+		System.out.println(times);
+		System.out.println(Part.times);
+	}
+}
