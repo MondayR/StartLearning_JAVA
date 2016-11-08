@@ -1,0 +1,12 @@
+package test;
+
+public class Gess {
+	public static void main(String args[]){
+		char char1 = '\\';
+		char char2 = '\u2605';
+		String s1 = "这是一个五角星\u2605"; 
+		System.out.println("输出一个反斜杠"+char1);
+		System.out.println("输出一个五角星"+char2);
+		System.out.println(s1);
+	}
+}
