@@ -1,0 +1,14 @@
+package test;
+
+public class Part {
+	static final double PI = 3.1415926;
+	static final int age = 23;
+	public static void main(String arg[]){
+		final int number;
+		number = 1024;
+		//age = 22;
+		System.out.println(PI);
+		System.out.println(number);
+		System.out.println(age);
+	}
+}
