@@ -1,0 +1,10 @@
+package test;
+import java.util.*;  
+
+public class Hello_World {
+	private static String say = "\u2605";
+	public static void main(String args[])
+	{
+		System.out.println("this is my first Progrem!"+say);
+	}
+}
