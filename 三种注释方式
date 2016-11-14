@@ -1,0 +1,13 @@
+package test;
+import java.util.Scanner;
+public class Part {
+	public static void main (String args[]){
+		//这个是单行注释！
+		/*
+		 * 这个是块注释！
+		 */
+		/**
+		 * 这个是文档注释！
+		 */
+	}
+}
