@@ -1,0 +1,37 @@
+package test;
+
+import java.util.Scanner;
+public class Getif {
+	public static void main (String args[]){
+		Scanner scan = new Scanner(System.in);
+		System.out.println("今天周几？");
+		int week = scan.nextInt();
+		switch (week)
+		{
+		case 1:
+			System.out.println("周一");
+			break;
+		case 2:
+			System.out.println("周二");
+			break;
+		case 3:
+			System.out.println("周三");
+			break;
+		case 4:
+			System.out.println("周四");
+			break;
+		case 5:
+			System.out.println("周五");
+			break;
+		case 6:
+			System.out.println("周六");
+			break;
+		case 7:
+			System.out.println("周天");
+			break;
+		default:
+			System.out.println("输入有误，一周只有7天！");
+		}
+	}
+
+}
