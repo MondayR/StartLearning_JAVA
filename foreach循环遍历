@@ -1,0 +1,11 @@
+package test;
+
+public class GetSum {
+	public static void main (String args[]){
+		int a[] = {3,7,9,12,55,87};
+		System.out.println("数组中的元素有：");
+		for(int x:a){
+			System.out.println(x);
+		}
+	}
+}
