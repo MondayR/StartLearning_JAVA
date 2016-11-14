@@ -1,0 +1,13 @@
+package test;
+
+public class Part {
+	public static void main (String args[]){
+		int a,b;
+		a = 50;
+		b = 10;
+		char c = 'c';
+		System.out.println(a+"&"+b+":"+(a&b));
+		System.out.println(a+"^"+c+":"+(a^c));
+		System.out.println(a+">>"+b+":"+(a>>b));
+	}
+}
