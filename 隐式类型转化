@@ -1,0 +1,15 @@
+package test;
+import java.util.Scanner;
+public class Part {
+	public static void main (String args[]){
+		int myint = 10;
+		byte mybyte = 20;
+		char mychar = 35;
+		float myfloat = 40;
+		double mydouble = 50;
+		System.out.println(mybyte+"+"+myfloat+"="+(mybyte+myfloat));
+		System.out.println(mybyte+"*"+myint+"="+(mybyte*myint));
+		System.out.println(mybyte+"/"+mychar+"="+(mybyte/mychar));
+		System.out.println(mydouble+"+"+mychar+"="+(mydouble+mychar));
+	}
+}
