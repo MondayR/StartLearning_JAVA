@@ -1,0 +1,14 @@
+package test;
+import java.util.Scanner;
+public class Part {
+	public static void main (String args[]){
+		Scanner scan = new Scanner(System.in);
+		System.out.println("输入球体半径");
+		double r = scan.nextDouble();
+		final double PI = 3.141592656;
+		double V = 4.0/3.0*PI*r*r*r;
+		System.out.println("球体半径为："+r);
+		System.out.println("圆周率为："+PI);
+		System.out.println("球体体积为："+V);
+	}
+}
