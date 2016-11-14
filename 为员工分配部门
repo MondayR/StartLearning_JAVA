@@ -1,0 +1,31 @@
+package test;
+
+import java.util.Scanner;
+public class Getif {
+	public static void main (String args[]){
+		Scanner scan = new Scanner(System.in);
+		System.out.println("请输入员工姓名:");
+		String Name = scan.nextLine();
+		System.out.println("请输入员工从事语言:");
+		String Language = scan.nextLine();
+		switch(Language.hashCode())
+		{
+			case 3254818:
+			case 2301506:
+			case 2269730:
+				System.out.println("员工"+Name+"被分配到JAVA部门！");
+				break;
+			case 3104:
+			case 2112:
+				System.out.println("员工"+Name+"被分配到C#组！");
+				break;
+			case -709190099:
+			case 955463181:
+			case 9745901:
+				System.out.println("员工"+Name+"被分配到Asp.Net程序测试部门！");
+			default :
+				System.out.println("公司不需要从事"+Language+"语言的程序员！");
+		}
+	}
+
+}
