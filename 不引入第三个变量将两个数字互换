@@ -1,0 +1,17 @@
+package test;
+import java.util.Scanner;
+public class Part {
+	public static void main (String args[]){
+		int a,b;
+		Scanner scan = new Scanner(System.in);
+		System.out.println("输入A:");
+		a = scan.nextInt();
+		System.out.println("输入B:");
+		b= scan.nextInt();
+		System.out.println("互换前，A="+a+" B="+b);
+		a = a ^ b;
+		b = b ^ a;
+		a = a ^ b;
+		System.out.println("互换后，A="+a+" B="+b);
+	}
+}
