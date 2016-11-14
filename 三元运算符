@@ -1,0 +1,11 @@
+package test;
+
+public class Part {
+	public static void main (String args[]){
+		int a,b;
+		a = 10;
+		b = 50;
+		a = a>b?20:30;
+		System.out.println(a);
+	}
+}
