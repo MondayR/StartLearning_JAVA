@@ -1,0 +1,19 @@
+package test;
+import java.util.Scanner;
+public class Part {
+	public static void main (String args[]){
+		int NumI = 4;
+		float NumF = 9.5F;
+		NumF /= NumI;
+		System.out.println(NumF);
+		
+		double NumD1 = 4.88;
+		double NumD2 = 78.83;
+		int NumIZ = (int)NumD1 + (int)NumD2;
+		System.out.println(NumIZ);
+		
+		char NumC = 'T';
+		int NumIC = (int)NumC;
+		System.out.println(NumIC);
+	}
+}
