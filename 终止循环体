@@ -1,0 +1,37 @@
+package test;
+
+public class GetSum {
+	public static void main (String args[]){
+		String[] ObjArray = new String[] {"语文","数学","生物","化学","历史","物理"};
+		System.out.println("\n-----------------中断一层循环--------------");
+		System.out.println("考试科目有：");
+		for( String x : ObjArray )
+		{
+			if( x == "历史" )
+			{
+				break;
+			}
+			System.out.print( x + "\t" );
+		}
+		System.out.println( "\n-----------------中断二层循环--------------" );
+		System.out.println( "考试成绩为：" );
+		int[][] Grade = new int[][] {{80,90,85,35,42,88},{80,90,85,35,30,88},{80,90,85,35,42,88}};
+		for ( int x = 0 ; x < ObjArray.length ; x++ )
+		{
+			System.out.print( ObjArray[x] + "\t" );
+		}
+		System.out.println();
+		for ( int i = 0 ; i < Grade.length ; i++ )
+		{
+			for ( int j = 0 ; j < Grade[i].length ; j++  )
+			{
+				if( Grade[i][j] <=30 )
+				{
+					break;
+				}
+				System.out.print( Grade[i][j] + "\t" );
+			}
+			System.out.println();
+		}
+	}
+}
