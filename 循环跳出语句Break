@@ -1,0 +1,26 @@
+package test;
+
+public class GetSum {
+	public static void main (String args[]){
+		String flag = "本例子从1加到了100，结果为：";
+		int SumNum  = 0;
+		for( int i = 0 ; i <= 100 ; i++ )
+		{
+			SumNum += i;
+		}
+		System.out.println( flag + SumNum );
+		String Flag    = "本例子为从1加到了";
+		String Flag_2  = "，结果为：";
+		int    sumNum  = 0;
+		int j ;
+		for ( j = 0 ; j <= 100 ; j++ )
+		{
+			sumNum += j;
+			if( sumNum > 1000 )
+			{
+				break;
+			}
+		}
+		System.out.println( Flag + j + Flag_2 + sumNum );
+	}
+}
